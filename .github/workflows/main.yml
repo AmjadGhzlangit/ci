@@ -26,4 +26,4 @@ jobs:
           cd /var/www/ci/
           git pull origin main
           git status
-          npm install --only=prod
+          echo "Deployment successful on $(date)" > deployment_success.txt
